@@ -406,26 +406,22 @@
 
   <h1>Главная</h1>
 
-<h2 id="uri-url-urn">URI, URL и URN — в чём раыыызница?<a class="headerlink" href="#uri-url-urn" title="Permanent link">&para;</a></h2>
+<h2 id="uri-url-urn">URI, URL и URN — в чём раыыызница?</h2>
 <blockquote>
 <p>Обновлено: 27 июня 2025</p>
 </blockquote>
-<div class="admonition abstract">
-<p class="admonition-title">TL;DR</p>
-<ul>
-<li><strong>URI</strong> — идентификатор ресурса.</li>
-<li><strong>URL</strong> — идентификатор + способ доступа.</li>
-<li><strong>URN</strong> — уникальное имя (например, ISBN).</li>
-<li>Все URL — это URI, но не все URI — это URL.</li>
-</ul>
-</div>
+<p>!!! abstract "TL;DR"
+    - <strong>URI</strong> — идентификатор ресурса.
+    - <strong>URL</strong> — идентификатор + способ доступа.
+    - <strong>URN</strong> — уникальное имя (например, ISBN).
+    - Все URL — это URI, но не все URI — это URL.</p>
 <hr />
-<h2 id="_1">📘 Определения<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_1">📘 Определения</h2>
 <p><strong>URI</strong> (Uniform Resource Identifier) — это строка, идентифицирующая ресурс.<br />
 <strong>URL</strong> (Uniform Resource Locator) — это URI, указывающий, где найти ресурс.<br />
 <strong>URN</strong> (Uniform Resource Name) — это URI, идентифицирующий ресурс по имени, без указания способа доступа.</p>
 <hr />
-<h2 id="_2">🧠 Простое сравнение<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h2 id="_2">🧠 Простое сравнение</h2>
 <table>
 <thead>
 <tr>
@@ -453,17 +449,13 @@
 </tbody>
 </table>
 <hr />
-<h2 id="_3">💡 Аналогия с реальной жизнью<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<div class="admonition tip">
-<p class="admonition-title">Простое объяснение</p>
-<ul>
-<li><strong>URI</strong> — это как имя человека.</li>
-<li><strong>URL</strong> — это имя + адрес.</li>
-<li><strong>URN</strong> — только имя, но уникальное (например, номер паспорта).</li>
-</ul>
-</div>
+<h2 id="_3">💡 Аналогия с реальной жизнью</h2>
+<p>!!! tip "Простое объяснение"
+    - <strong>URI</strong> — это как имя человека.
+    - <strong>URL</strong> — это имя + адрес.
+    - <strong>URN</strong> — только имя, но уникальное (например, номер паспорта).</p>
 <hr />
-<h2 id="url">⚙️ Структура URL<a class="headerlink" href="#url" title="Permanent link">&para;</a></h2>
+<h2 id="url">⚙️ Структура URL</h2>
 <p><code>https://user:pass@site.com:443/path/page.html?q=search#section</code></p>
 <p>Разберем:</p>
 <ul>
@@ -474,38 +466,30 @@
 <li><strong>Фрагмент (fragment)</strong>: <code>#section</code></li>
 </ul>
 <hr />
-<h2 id="_4">🧪 Немного тестов<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<h3 id="1">Пример 1<a class="headerlink" href="#1" title="Permanent link">&para;</a></h3>
+<h2 id="_4">🧪 Немного тестов</h2>
+<h3 id="1">Пример 1</h3>
 <p><code>www.google.com</code><br />
 👉 Это не полный URL (нет схемы), но может быть URI.</p>
-<h3 id="2">Пример 2<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<h3 id="2">Пример 2</h3>
 <p><code>userstats.html</code><br />
 👉 Это путь, но не полноценный URI/URL/URN.</p>
 <hr />
-<h2 id="rfc">🤯 RFC и путаница<a class="headerlink" href="#rfc" title="Permanent link">&para;</a></h2>
-<div class="admonition quote">
-<p class="admonition-title">RFC 3986</p>
-<blockquote>
-<p>"A URI can be a name, a locator, or both."</p>
-</blockquote>
-</div>
+<h2 id="rfc">🤯 RFC и путаница</h2>
+<p>!!! quote "RFC 3986"
+    &gt; "A URI can be a name, a locator, or both."</p>
 <p>Но:
 - URI <em>требует</em> схему (?!)
 - URI <em>может</em> быть только идентификатором (?!)
 - URL — подтип URI</p>
 <p>Всё это приводит к бесконечным дебатам.</p>
 <hr />
-<h2 id="_5">💬 Мой совет<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<div class="admonition info">
-<p class="admonition-title">На практике</p>
-<ul>
-<li>Говори "URL", если есть схема (<code>http</code>, <code>ftp</code> и т.п.)</li>
-<li>Говори "URI", если точность важна или нет схемы</li>
-<li>Не заморачивайся слишком: <strong>главное — быть понятым</strong></li>
-</ul>
-</div>
+<h2 id="_5">💬 Мой совет</h2>
+<p>!!! info "На практике"
+    - Говори "URL", если есть схема (<code>http</code>, <code>ftp</code> и т.п.)
+    - Говори "URI", если точность важна или нет схемы
+    - Не заморачивайся слишком: <strong>главное — быть понятым</strong></p>
 <hr />
-<h2 id="_6">📎 Дополнительно<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<h2 id="_6">📎 Дополнительно</h2>
 <ul>
 <li>RFC 3986: <a href="https://www.ietf.org/rfc/rfc3986.txt">ietf.org/rfc/rfc3986.txt</a></li>
 <li>Отличное объяснение на английском: <a href="https://danielmiessler.com">miessler.com</a></li>
