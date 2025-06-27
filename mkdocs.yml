@@ -1,0 +1,31 @@
+site_name: Гайд по URL и URI
+site_description: Подробное руководство по URL, URI и их компонентам
+site_author: Ваше_Имя
+site_url: https://username.github.io/url-guide
+
+theme:
+  name: material
+  language: ru
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - content.code.copy
+    - content.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Главная: index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search
